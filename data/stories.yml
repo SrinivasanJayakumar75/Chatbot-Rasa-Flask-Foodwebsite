@@ -1,0 +1,89 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Express thank
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- story: ordering food
+  steps:
+  - intent: new_order
+  - action: utter_new_order
+
+- story: ordering pizza
+  steps:
+  - intent: order_pizza
+  - action: utter_order_pizza
+
+- story: ordering burger
+  steps:
+  - intent: order_burger
+  - action: utter_order_burger
+
+- story: ordering sandwich
+  steps:
+  - intent: order_sandwich
+  - action: utter_order_sandwich
+
+- story: ordering wraps
+  steps:
+  - intent: order_wraps
+  - action: utter_order_wraps
+
+- story: ordering donuts
+  steps:
+  - intent: order_donuts
+  - action: utter_order_donuts
+
+- story: ordering tacos
+  steps:
+  - intent: order_tacos
+  - action: utter_order_tacos
+
+- story: ordering soft drink
+  steps:
+  - intent: order_soft_drink
+  - action: utter_order_soft_drink
+
+- story: placing order
+  steps:
+  - intent: nothing
+  - action: utter_nothing
+
+
+
+
+
+
+
+
+

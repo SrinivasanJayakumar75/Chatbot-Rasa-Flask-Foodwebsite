@@ -1,0 +1,186 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - thank
+    - new_order
+    - order_pizza
+    - order_burger
+    - order_sandwich
+    - order_wraps
+    - order-tacos
+    - order_donuts
+    - order_soft_drink
+    - nothing
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - many thanks
+
+- intent: new_order
+  examples: |
+    - new order
+    - new food order
+    - food order
+
+- intent: order_burger
+  examples: |
+    - I want to order a [burger](food)
+    - can i get a [burger](food)
+    - i'd like to have a [burger](food)
+    - Let's order a [burger](food)
+    - How about a [burger](food)
+    - add a [burger](food)
+
+- intent: order_pizza
+  examples: |
+    - I want to order a [pizza](food)
+    - can i get a [pizza](food)
+    - i'd like to have a [pizza](food)
+    - Let's order a [pizza](food)
+    - How about a [pizza](food)
+    - add a [pizza](food)
+
+- intent: order_sandwich
+  examples: |
+    - I want to order a [sandwich](food)
+    - can i get a [sandwich](food)
+    - i'd like to have a [sandwich](food)
+    - Let's order a [sandwich](food)
+    - How about a [sandwich](food)
+    - add a [sandwich](food)    
+
+- intent: order_wraps
+  examples: |
+    - I want to order a [wraps](food)
+    - can i get a [wraps](food)
+    - i'd like to have a [wraps](food)
+    - Let's order a [wraps](food)
+    - How about a [wraps](food)
+    - add a [wraps](food)    
+
+- intent: order_donuts
+  examples: |
+    - I want to order a [donuts](food)
+    - can i get a [donuts](food)
+    - i'd like to have a [donuts](food)
+    - Let's order a [donuts](food)
+    - How about a [donuts](food)
+    - add a [donuts](food)
+
+- intent: order_tacos
+  examples: |
+    - I want to order a [tacos](food)
+    - can i get a [tacos](food)
+    - i'd like to have a [tacos](food)
+    - Let's order a [tacos](food)
+    - How about a [tacos](food)
+    - add a [tacos](food)
+
+- intent: order_soft_drink
+  examples: |
+    - I want to order a [soft drink](food)
+    - can i get a [soft drink](food)
+    - i'd like to have a [soft drink](food)
+    - Let's order a [soft drink](food)
+    - How about a [soft drink](food)
+    - add a [soft drink](food)    
+
+- intent: nothing
+  examples: |
+    - enough
+    - Nothing
+    - that's all
+    - that's it
+    
+    
